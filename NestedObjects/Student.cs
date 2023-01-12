@@ -35,5 +35,10 @@ namespace NestedObjects
         /// The student's mobile phone number
         /// </summary>
         public string PhoneNumber { get; set; }
+
+        /// <summary>
+        /// The student's assigned college advisor
+        /// </summary>
+        public Advisor Advisor { get; set; }
     }
 }
