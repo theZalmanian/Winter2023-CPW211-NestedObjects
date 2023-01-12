@@ -22,9 +22,9 @@ namespace NestedObjects
         public string LastName { get; set; }
 
         /// <summary>
-        /// The student's date of birth (time is ignored)
+        /// The student's date of birth
         /// </summary>
-        public DateTime DateOfBirth { get; set; }
+        public DateOnly DateOfBirth { get; set; }
 
         /// <summary>
         /// The student's assigned school email address
@@ -32,7 +32,7 @@ namespace NestedObjects
         public string SchoolEmail { get; set; }
 
         /// <summary>
-        /// The student's mobile phone number
+        /// The student's preferred contact number
         /// </summary>
         public string PhoneNumber { get; set; }
 
